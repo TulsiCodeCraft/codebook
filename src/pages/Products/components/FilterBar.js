@@ -50,7 +50,7 @@ export const FilterBar = ({setShow}) => {
                           <label htmlFor="best-seller" className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Best Seller Only</label>
                       </div>
                       <div className="flex items-center my-1">
-                          <input onChange={()=>dispatch({type:"ONLY_IN_STOCK",payload:{onlyInStock:!state.  onlyInStock}})} checked={state.onlyInStock || false} id="only-instock" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 dark:bg-gray-700 dark:border-gray-600" />
+                          <input onChange={()=>dispatch({type:"ONLY_IN_STOCK",payload:{onlyInStock:!state.onlyInStock}})} checked={state.onlyInStock || false} id="only-instock" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 dark:bg-gray-700 dark:border-gray-600" />
                           <label htmlFor="only-instock" className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">INSTOCK Only</label>
                       </div>
                     </li>
